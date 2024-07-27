@@ -9,7 +9,7 @@ namespace SoftUniBazar.Data
         public BazarDbContext(DbContextOptions<BazarDbContext> options)
             : base(options)
         {
-            Database.EnsureCreated();
+            //Database.EnsureCreated();
         }
 
         public DbSet<Ad> Ads { get; set; }
