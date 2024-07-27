@@ -10,6 +10,7 @@ namespace SoftUniBazar.Data
             : base(options)
         {
             //Database.EnsureCreated();
+            //
         }
 
         public DbSet<Ad> Ads { get; set; }
